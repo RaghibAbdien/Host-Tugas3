@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    padding: 1rem 1rem;
+    width: 60%;
+    height: max-content;
+    display: grid;
+    place-items: center;
+    border: 1px solid #eeee;
+    /* background-color: firerick; */
+    box-shadow: 0px 5px 5px 1px rgba(214,214,214,0.5);
+    -webkit-box-shadow: 0px 5px 5px 1px rgba(214,214,214,0.5);
+    -moz-box-shadow: 0px 5px 5px 1px rgba(214,214,214,0.5);
+}
+
+section h1{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+label{
+    width: max-content;
+    height: max-content;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group select {
+    height: 40px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input[type="submit"] {
+    width: 90%;
+    background-color: #5B9BF3;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #538cdd;
+}
+
+.no1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.no2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.f1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.f1 select{
+    font-size: 1rem;
+}
+
+.f1 input[type="text"],
+.f1 input[type="email"]{
+    width: 300px;
+}
+
+.f1 input[type="tel"],
+.f1 select{
+    width: 250px;
+}
+
+.no3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    /* align-items: center; */
+}
+
+.laki{
+    display: flex;
+    gap: 1rem;
+}
+
+.laki label{
+    margin-top: 8px;
+}
+
+.perempuan{
+    display: flex;
+    gap: 1rem;
+}
+
+.perempuan label{
+    margin-top: 8px;
+}
+
+.hobi div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.hobi div label{
+    margin-top: 8px;
+}
+
+.btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
