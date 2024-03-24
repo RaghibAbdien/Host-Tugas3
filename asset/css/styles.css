@@ -745,6 +745,51 @@ footer{
   color: #fff;
 }
 
+.adv{
+  margin-top: 1rem;
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+}
+
+.banner{
+  width: 80vw;
+  height: 50vh;
+  /* background: #4089ED; */
+}
+
+.banner img{
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.mySlider{
+  display: none;
+}
+
+.tmbl-slide{
+  position: relative;
+  bottom: 80px;
+}
+
+.tmbl {
+  height: 5px;
+  width: 30px;
+  margin: 0 2px;
+  background-color: #abc2e0;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.aktif {
+  background-color: #4089ED;
+}
+
 @media(max-width: 992px){
   .navbar .links,
   .navbar .action-btn {
