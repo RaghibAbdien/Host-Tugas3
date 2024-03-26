@@ -48,7 +48,7 @@ function showSlider() {
 // }
 
 // POST data ke API
-// fetch('https://crudcrud.com/api/05bdc699af324c5fbd1eafa52d964ba9/apotek', {
+// fetch('https://crudcrud.com/api/7be87b4b0cb84a579fc7ec5c0042acf9/apotek', {
 //   headers: { "Content-Type": "application/json; charset=utf-8" },
 //   method: 'POST',
 //   body: JSON.stringify({dataArray})
@@ -57,7 +57,7 @@ function showSlider() {
 // .then(data => console.log(data))
 
 //Cek data
-fetch('https://crudcrud.com/api/05bdc699af324c5fbd1eafa52d964ba9/apotek/65fff7831492af03e8f0ff0b')
+fetch('https://crudcrud.com/api/7be87b4b0cb84a579fc7ec5c0042acf9/apotek/6602e1511492af03e8f1057a')
 .then(response => {
     if (response.ok) {
         return response.json();
@@ -84,7 +84,7 @@ fetch('https://crudcrud.com/api/05bdc699af324c5fbd1eafa52d964ba9/apotek/65fff783
 
 
 //Masukkan data kedalam HTML
-let endpoint = 'https://crudcrud.com/api/05bdc699af324c5fbd1eafa52d964ba9/apotek/65fff7831492af03e8f0ff0b';
+let endpoint = 'https://crudcrud.com/api/7be87b4b0cb84a579fc7ec5c0042acf9/apotek/6602e1511492af03e8f1057a';
 
 let konten = document.getElementById('container');
 

@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-image: url('../img/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    margin: 3.5rem;
+    width: 40vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.0);
+    backdrop-filter: blur(5px);
+    border-radius: 40px;
+    border: 1px solid #5882c17b;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.head{
+    display: grid;
+    place-items: center;
+    margin-right: 4rem;
+}
+
+.form{
+    padding: 2rem;
+    width: 100%;
+    /* background: pink; */
+}
+
+input{
+    width: 330px;
+    height: 40px;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.email{
+    margin-top: 1rem;
+}
+
+.password{
+    margin-top: 1rem;
+}
+
+.email div{
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.password div{
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.password div i{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.password div i:hover{
+    color: black;
+}
+
+button{
+    margin-top: 2rem;
+    width: 400px;
+    height: 35px;
+    background: #26a2ab;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: #2fc8d3;
+}
+
+.other-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.other-login span a{
+    text-decoration: none;
+    color: #404040;
+    font-weight: 600;
+}
+
+.other-login span a:hover{
+    color: black;
+}
+
+.medsos{
+    display: flex;
+    gap: 3rem;
+}
+
+.medsos a{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.medsos a:hover{
+    background: #ededed;
+}
+
+.medsos a img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    section{
+        margin: 1rem;
+        width: 90vw;
+        height: 100vw;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+    .head{
+        margin-right: 0;
+    }
+}
+  
+
+@media only screen and (max-width: 576px) {
+    section{
+        margin: .8rem;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+    .head{
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+}
+
+
+@media(max-width: 576px){
+    section{
+        width: 100vw;
+    }
+}
+
+@media(max-width: 768px){
+    section{
+        margin: 1rem;
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+    .head{
+        margin-right: 0;
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 992px){
+    section{
+        margin: 1rem;
+        width: 60vw;
+        height: 90vh;
+    }
+}
+
+@media(max-width: 1200px){
+    section{
+        margin: 1rem;
+        height: 90vh;
+    }
+}
+  
