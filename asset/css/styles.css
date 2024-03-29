@@ -790,6 +790,24 @@ footer{
   background-color: #4089ED;
 }
 
+.dropdown{
+  padding: .5rem 1rem;
+  width: max-content;
+  background: rgba(243, 243, 243, 0.75);
+  position: absolute;
+  z-index: 3;
+  display: none;
+  gap: .5rem;
+}
+
+.dropdown li{
+  display: block;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
+
 @media(max-width: 992px){
   .navbar .links,
   .navbar .action-btn {
